@@ -1,0 +1,47 @@
+/* primary
+secundary
+tertiary
+softest
+blue */
+
+.random-section {
+    width: 29rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto 1rem auto;
+    font-size: 2rem;
+    color: var(--the-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid var(--tertiary);
+    border-radius: 2rem 0 2rem 0;
+}
+
+.random-section:hover {
+    border: solid var(--secundary);
+}
+
+.random-section__h2 {
+    margin-bottom: 1rem;
+}
+
+.random-card {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem 0 1rem 0;
+    background-color: aqua;
+    border: solid;
+    border-radius: 2rem;
+}
+
+.random-card__fav-btn{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--tertiary);
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 1rem;
+}

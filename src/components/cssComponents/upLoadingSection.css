@@ -1,0 +1,70 @@
+.upload-section {
+    width: 29rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto 1rem auto;
+    font-size: 2rem;
+    color: var(--the-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid var(--tertiary);
+    border-radius: 2rem 0 2rem 0;
+}
+
+.upload-section:hover {
+    border: solid var(--secundary);
+}
+
+.upload-header {
+    display: flex;
+    align-items: center;
+}
+
+.upload-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem 0 1rem 0;
+    background-color: var(--the-blue);
+    border: solid;
+    border-radius: 2rem;
+}
+
+.imagen {
+    width: 100%;
+    height: 20rem;
+}
+
+.upload-card__img{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.upload-card__spans{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+
+}
+
+.upload-card__span{
+    width: 6rem;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.upload-card__span_cancel {
+    background-color: rgb(250, 125, 125);
+}
+
+.upload-card__span_accept {
+    background-color: rgb(195, 243, 123);
+}
