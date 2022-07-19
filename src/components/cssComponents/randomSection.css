@@ -1,9 +1,3 @@
-/* primary
-secundary
-tertiary
-softest
-blue */
-
 .random-section {
     width: 29rem;
     padding-top: 1rem;
@@ -36,12 +30,34 @@ blue */
     border-radius: 2rem;
 }
 
+.random-card__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
 .random-card__fav-btn{
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     background-color: var(--tertiary);
     position: absolute;
     bottom: 1rem;
     right: 1rem;
     border-radius: 1rem;
+    background-image: url(../../assests/img/cat_eyesHeart_icon.png);
+    background-position:  center ;
+    background-repeat: no-repeat;
+}
+
+.reload {
+    border: solid;
+    border-radius: 2rem;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    width: 10rem;
+}
+
+.reload:hover {
+    background-color: var(--secondary);
 }
